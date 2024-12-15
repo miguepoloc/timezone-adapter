@@ -3,4 +3,4 @@ skips: ['B101', 'B104', 'B310', 'B311']
 exclude_dirs:
   - 'tests'
   - '.venv'
-  - 'venv' 
+  - 'venv'

@@ -25,4 +25,3 @@ Faker==28.4.1
 
 # Pre-commit tools
 pre-commit==3.8.0
-
