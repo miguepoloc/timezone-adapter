@@ -1,3 +1,5 @@
+"""Setup configuration for timezone-adapter package."""
+
 from setuptools import find_packages, setup
 
 setup(
