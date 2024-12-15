@@ -10,7 +10,7 @@ readme = "README.md"
 authors = [
     { name = "Miguel Angel Polo Castañeda", email = "miguepoloc@gmail.com" }
 ]
-license = { file = "LICENSE" }
+license = { text = "MIT" }
 classifiers = [
     "Development Status :: 4 - Beta",
     "Programming Language :: Python :: 3",
