@@ -1,0 +1,28 @@
+-e .
+# Dependencies
+types-pytz==2023.3.1.1
+types-setuptools==69.0.0.0
+pydantic==2.6.1
+
+# Tools
+twine==4.0.2
+build==1.0.3
+
+# Development Dependencies
+black==24.1.1
+flake8==7.0.0
+pylint==3.0.3
+mypy==1.8.0
+isort==5.13.2
+ruff==0.2.1
+bandit==1.7.6
+pytest==8.0.0
+pytest-cov==4.1.0
+
+# Testing tools
+coverage==7.6.1
+Faker==28.4.1
+
+# Pre-commit tools
+pre-commit==3.8.0
+
