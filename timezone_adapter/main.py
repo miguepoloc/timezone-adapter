@@ -56,8 +56,6 @@ class TimeZoneAdapter:
         Note:
             If the datetime object is already in UTC timezone, it is returned as is.
         """
-        if self.is_utc(date_time):
-            return date_time
         return date_time.astimezone(pytz.UTC)
 
     def from_utc(self, date_time: datetime) -> datetime:
@@ -73,9 +71,7 @@ class TimeZoneAdapter:
         Note:
             If the datetime object is already in the specified timezone, it is returned as is.
         """
-        if self.is_utc(date_time):
-            return date_time.astimezone(self.timezone)
-        return date_time
+        return date_time.astimezone(self.timezone)
 
     def get_min_date(self, date_time: datetime) -> datetime:
         """
