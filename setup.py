@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="timezone-adapter",
-    version="0.1.0",
+    version="0.1.1",
     description="A class for converting and manipulating datetime objects based on given timezone offset or name.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",

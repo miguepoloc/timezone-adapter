@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "timezone-adapter"
-version = "0.1.0"
+version = "0.1.1"
 description = "A class for converting and manipulating datetime objects based on given timezone offset or name."
 readme = "README.md"
 authors = [

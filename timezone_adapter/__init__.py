@@ -3,5 +3,5 @@ This module provides a class for converting and manipulating datetime objects ba
 """
 from .main import TimeZoneAdapter
 
-__version__: str = "0.1.0"
+__version__: str = "0.1.1"
 __all__: list[str] = ["TimeZoneAdapter"]
